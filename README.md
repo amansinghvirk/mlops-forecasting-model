@@ -86,7 +86,14 @@ Follow the process for installation and creating the execution enviornment
     $ pip install -r requirements.txt
 
     ```
-2. Execute the model training for different experiments
+
+2. For sample execution use the sample data available in sampledb
+    - Create .env file in root folder and add the following contents to the file
+    SQLITEDB_PATH="sampledb/stores_sales_sample.db"
+
+    Above path is referring to the link to the database
+
+3. Execute the model training for different experiments
 
     - below code will output the arguments require for executing the model training
 
