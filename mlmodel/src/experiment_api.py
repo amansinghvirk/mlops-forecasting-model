@@ -63,7 +63,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello MLOps world! Model - Stores A"}
+    return {"message": "Hello MLOps world!"}
 
 
 @app.get("/executions")
