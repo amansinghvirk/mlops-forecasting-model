@@ -1,0 +1,1 @@
+SELECT * FROM  stores WHERE type='A';

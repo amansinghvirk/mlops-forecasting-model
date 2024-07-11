@@ -1,0 +1,15 @@
+{
+    "name": "Weekdays Features",
+    "description": "weekday, month, year features",
+    "model_type": "regression",
+    "id": "date",
+    "target": "sales",
+    "features": [
+        "day_of_month", "day_of_week", "month_of_year"],
+    "model_params": {
+        "train_start_dt": "2013-01-01",
+        "train_end_dt": "2016-12-31",
+        "validation_start_dt": "2017-01-01",
+        "validation_end_dt": "2017-06-30"
+    }
+}

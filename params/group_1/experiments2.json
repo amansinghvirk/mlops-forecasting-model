@@ -1,0 +1,15 @@
+{
+    "name": "promotions",
+    "description": "Oil and promotion features",
+    "model_type": "regression",
+    "id": "date",
+    "target": "sales",
+    "features": [
+        "dcoilwtico", "onpromotion"],
+    "model_params": {
+        "train_start_dt": "2013-01-01",
+        "train_end_dt": "2016-12-31",
+        "validation_start_dt": "2017-01-01",
+        "validation_end_dt": "2017-06-30"
+    }
+}
